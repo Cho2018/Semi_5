@@ -25,8 +25,8 @@
 
             <ImageView
                     android:id="@+id/iv_check_icon"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_weight="2"
                     android:src="@drawable/check_icon"/>
 
@@ -53,8 +53,8 @@
 
             <ImageView
                     android:id="@+id/iv_qrcode_icon"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_weight="2"
                     android:src="@drawable/qrcode_icon"/>
 
@@ -81,8 +81,8 @@
 
             <ImageView
                     android:id="@+id/iv_home_icon"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_weight="2"
                     android:src="@drawable/home_icon"/>
 
@@ -109,8 +109,8 @@
 
             <ImageView
                     android:id="@+id/iv_message_icon"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_weight="2"
                     android:src="@drawable/message_icon"/>
 
@@ -137,8 +137,8 @@
 
             <ImageView
                     android:id="@+id/iv_setting_icon"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_weight="2"
                     android:src="@drawable/setting_icon"/>
 

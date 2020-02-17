@@ -131,6 +131,127 @@
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:background="#f8f8f8">
+
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="10dp">
+
+                        <ImageView
+                                android:id="@+id/iv_notice"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="2"
+                                android:src="@drawable/notice_button"/>
+
+                        <TextView
+                                android:id="@+id/txt_notice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginTop="5dp"
+                                android:text="공지사항"
+                                android:textSize="14dp"
+                                android:textColor="#242424"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="10dp">
+
+                        <ImageView
+                                android:id="@+id/iv_studentcard"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="2"
+                                android:src="@drawable/studentcard_button"/>
+
+                        <TextView
+                                android:id="@+id/txt_studentcard"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginTop="5dp"
+                                android:text="학생증"
+                                android:textSize="14dp"
+                                android:textColor="#242424"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="10dp">
+
+                        <ImageView
+                                android:id="@+id/iv_snowboard"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="2"
+                                android:src="@drawable/snowboard_button"/>
+
+                        <TextView
+                                android:id="@+id/txt_snowboard"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginTop="5dp"
+                                android:text="SnowBoard"
+                                android:textSize="14dp"
+                                android:textColor="#242424"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="10dp">
+
+                        <ImageView
+                                android:id="@+id/iv_portal"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="2"
+                                android:src="@drawable/portal_button"/>
+
+                        <TextView
+                                android:id="@+id/txt_portal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginTop="5dp"
+                                android:text="숙명포탈"
+                                android:textSize="14dp"
+                                android:textColor="#242424"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
         </LinearLayout>
 
         <include
