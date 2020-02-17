@@ -19,7 +19,7 @@
         <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1.5">
+                android:layout_weight="2">
 
             <android.support.v4.view.ViewPager
                     android:id="@+id/vp_main_slider"
@@ -44,10 +44,93 @@
         <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="2.5"
+                android:layout_weight="2"
                 android:orientation="vertical"
                 android:background="#ffffff">
 
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="11dp"
+                    android:text="Today"
+                    android:textSize="15dp"
+                    android:textColor="#747474"/>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/color_bar"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="5dp"
+                        android:text="스마트출결"
+                        android:textSize="25dp"
+                        android:textColor="#242424"/>
+
+                <TextView
+                        android:id="@+id/txt_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="13dp"
+                        android:text="더보기"
+                        android:textSize="13dp"
+                        android:textColor="#747474"/>
+
+            </RelativeLayout>
+
+            <ListView
+                    android:id="@+id/subject_list"
+                    android:layout_width="380dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:layout_marginVertical="6dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/list_border">
+            </ListView>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/color_bar"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="5dp"
+                        android:text="바로가기"
+                        android:textSize="25dp"
+                        android:textColor="#242424"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#f8f8f8">
         </LinearLayout>
 
         <include
